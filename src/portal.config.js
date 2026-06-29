@@ -134,12 +134,12 @@ export const links = [
   },
   {
     name: 'Seruti',
-    url: 'https://seruti.bps.go.id',
+    url: 'https://seruti.web.bps.go.id',
     category: 'pusat',
     description: 'Sistem Informasi Manajemen Kepegawaian terpusat bagi seluruh pegawai BPS RI.',
     tag: 'Seruti',
     color: '#2ba335ff',
-    colorRgb: '34, 197, 94',
+    colorRgb: '43, 163, 53',
     icon: 'users'
   },
   {
