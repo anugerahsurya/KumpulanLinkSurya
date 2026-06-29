@@ -193,3 +193,10 @@ export const links = [
     icon: 'globe'
   }
 ];
+
+export const mockVisitors = [
+  { name: 'Drs. Sugeng Arianto, M.Si (BPS Prov. Sumbar)', time: 'Baru saja', isMock: true },
+  { name: 'Rina Rahmawati, S.ST (IPDS BPS Sumbar)', time: '2 jam yang lalu', isMock: true },
+  { name: 'Muhammad Ilham (TI1300)', time: '5 jam yang lalu', isMock: true },
+  { name: 'Putri Handayani (BPS Kota Padang)', time: '1 hari yang lalu', isMock: true }
+];
