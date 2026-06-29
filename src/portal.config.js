@@ -12,12 +12,12 @@ export const siteConfig = {
   siteTitle: 'Portal Hub BPS Sumbar',
   subTitle: 'Portal Hub Kumpulan Link BPS & Developer',
   footerText: 'Badan Pusat Statistik Provinsi Sumatera Barat',
-  
+
   // Konfigurasi Default Aplikasi
   defaultTheme: 'dark', // Pilihan: 'dark' | 'light'
   enableThemeToggle: true,
   enableClickTracking: true, // Menyimpan statistik jumlah klik ke LocalStorage
-  
+
   // Panduan Icon yang tersedia:
   // - 'activity' (Lapor / Kegiatan)
   // - 'chart' (Statistik / CKP)
@@ -32,25 +32,25 @@ export const siteConfig = {
   // - 'briefcase' (Administrasi/Backoffice)
   // - 'map-pin' (Pemetaan/Wilkerstat)
   // - 'globe' (Spasial/Situs Umum)
-  defaultIcon: 'globe' 
+  defaultIcon: 'globe'
 };
 
 export const categories = [
-  { 
-    id: 'aktivitas', 
-    name: 'Aktivitas & Kinerja (Lokal)', 
+  {
+    id: 'aktivitas',
+    name: 'Aktivitas & Kinerja (Lokal)',
     icon: 'activity',
     description: 'Aplikasi pelaporan dan penilaian kinerja internal BPS Sumatera Barat'
   },
-  { 
-    id: 'dev', 
-    name: 'Peralatan Developer', 
+  {
+    id: 'dev',
+    name: 'Peralatan Developer',
     icon: 'terminal',
     description: 'Tools, version control, hosting, dan ekosistem pengembang'
   },
-  { 
-    id: 'pusat', 
-    name: 'Layanan & Aplikasi Pusat', 
+  {
+    id: 'pusat',
+    name: 'Layanan & Aplikasi Pusat',
     icon: 'database',
     description: 'Portal nasional, administrasi umum, survei, dan database BPS RI'
   }
@@ -88,7 +88,7 @@ export const links = [
     colorRgb: '16, 185, 129',
     icon: 'shield'
   },
-  
+
   // === KATEGORI: Peralatan Developer (dev) ===
   {
     name: 'Github',
@@ -110,7 +110,7 @@ export const links = [
     colorRgb: '244, 63, 94',
     icon: 'vercel'
   },
-  
+
   // === KATEGORI: Layanan & Aplikasi Pusat (pusat) ===
   {
     name: 'Kipapp',
@@ -130,6 +130,16 @@ export const links = [
     tag: 'Simpeg',
     color: '#ef4444',
     colorRgb: '239, 68, 68',
+    icon: 'users'
+  },
+  {
+    name: 'Seruti',
+    url: 'https://seruti.bps.go.id',
+    category: 'pusat',
+    description: 'Sistem Informasi Manajemen Kepegawaian terpusat bagi seluruh pegawai BPS RI.',
+    tag: 'Seruti',
+    color: '#2ba335ff',
+    colorRgb: '34, 197, 94',
     icon: 'users'
   },
   {
